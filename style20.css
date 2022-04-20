@@ -1,0 +1,16 @@
+*{padding: 0;
+margin: 0;
+box-sizing: border-box;}
+
+div{height: 200px;
+width: 200px;
+margin: 0 auto;
+border-radius: 50%;
+background-color: rgb(161, 117, 202);
+transition: all;
+transition-timing-function: linear;
+transition-duration: 1s;
+transition-delay: 0s;}
+
+div:hover{background-color: rgb(115, 206, 176);
+transform: translate(10px,500px);}
